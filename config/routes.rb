@@ -1,4 +1,10 @@
 Stckthn::Application.routes.draw do
+  resources :users
+
+  get "users/new"
+
+  get "sign_up" => "users#new", :as => "sign_up"
+  root :to => "users#new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
