@@ -1,0 +1,1 @@
+Stckthn act used for market research.
